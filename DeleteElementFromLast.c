@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{
+    int arr[5] = {1, 2, 3, 4, 5};
+    int n = 5;
+
+    printf("Array before deletion: ");
+    for (int i = 0; i < n; i++)
+    {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+
+    n--;
+
+    printf("Array after deletion: ");
+    for (int i = 0; i < n; i++)
+    {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+
+    return 0;
+}
