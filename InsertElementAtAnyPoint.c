@@ -19,7 +19,6 @@ int main()
     printf("Enter the position to insert at (0-indexed): ");
     scanf("%d", &pos);
 
-    // Shift elements from the end up to 'pos' one step right
     for (int i = n; i > pos; i--)
     {
         arr[i] = arr[i - 1];
