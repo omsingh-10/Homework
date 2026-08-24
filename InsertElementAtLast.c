@@ -2,9 +2,15 @@
 
 int main() 
 {
-    int arr[5]= {1, 2, 3, 4, 5};
+    int arr[5];
     int n = 4;
     int value;
+
+    printf("Enter %d array elements: ", n);
+    for(int i = 0; i < n; i++)
+    {
+        scanf("%d", &arr[i]);
+    }
 
     printf("Array before insertion: ");
     for(int i = 0; i < n; i++) 
