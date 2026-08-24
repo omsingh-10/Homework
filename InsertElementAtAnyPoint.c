@@ -16,7 +16,7 @@ int main()
     printf("Enter the value to insert: ");
     scanf("%d", &value);
 
-    printf("Enter the position to insert at (0-indexed): ");
+    printf("Enter the position to insert at: ");
     scanf("%d", &pos);
 
     for (int i = n; i > pos; i--)
