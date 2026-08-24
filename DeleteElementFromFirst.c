@@ -12,7 +12,6 @@ int main()
     }
     printf("\n");
 
-    // Shift all elements one position to the left to delete first element
     for (int i = 0; i < n - 1; i++)
     {
         arr[i] = arr[i + 1];
