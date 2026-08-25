@@ -2,9 +2,15 @@
 
 int main()
 {
-    int arr[5] = {1, 2, 3, 4, 5};
+    int arr[5];
     int n = 5;
     int pos;
+
+    printf("Enter %d array elements: ", n);
+    for(int i = 0; i < n; i++)
+    {
+        scanf("%d", &arr[i]);
+    }
 
     printf("Array before deletion: ");
     for (int i = 0; i < n; i++)
